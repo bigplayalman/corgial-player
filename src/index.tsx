@@ -1,23 +1,8 @@
-/**
- * @class ExampleComponent
- */
+import Player from './Player';
+import SoundAudioPlayer from 'soundcloud-audio';
 
-import * as React from 'react'
+export default class CorgialPlayer extends SoundAudioPlayer {};
 
-import styles from './styles.css'
-
-export type Props = { text: string }
-
-export default class ExampleComponent extends React.Component<Props> {
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
+export {
+  Player
 }

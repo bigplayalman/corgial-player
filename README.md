@@ -13,17 +13,6 @@ npm install --save corgial-player
 ## Usage
 
 ```tsx
-import * as React from 'react'
-
-import MyComponent from 'corgial-player'
-
-class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
 ```
 
 ## License
