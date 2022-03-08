@@ -1907,8 +1907,9 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 "corgial-player@link:..":
-  version "0.0.0"
-  uid ""
+  version "0.0.1"
+  dependencies:
+    soundcloud-audio "^1.4.0"
 
 cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
   version "2.2.2"
@@ -7146,6 +7147,11 @@ sort-keys@^1.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
+soundcloud-audio@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/soundcloud-audio/-/soundcloud-audio-1.4.0.tgz#2d9ceeaa8a3c63d814e18c4c2602fe3be9a99655"
+  integrity sha512-2kHyTfu+KNOLZuRKynaeTmj846deC1WbiDTu7rkd1/93lk9FxtgbGkNQSIy5H4gxZD9EEeTdXhkE7uiMwEXuEQ==
+
 source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
@@ -7820,9 +7826,9 @@ uri-js@^4.2.2:
     punycode "^2.1.0"
 
 urijs@^1.16.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.1.tgz#5b0ff530c0cbde8386f6342235ba5ca6e995d25a"
-  integrity sha512-xVrGVi94ueCJNrBSTjWqjvtgvl3cyOTThp2zaMaFNGp3F542TR6sM3f2o8RqZl+AwteClSVmoCyt0ka4RjQOQg==
+  version "1.19.10"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.10.tgz#8e2fe70a8192845c180f75074884278f1eea26cb"
+  integrity sha512-EzauQlgKuJgsXOqoMrCiePBf4At5jVqRhXykF3Wfb8ZsOBMxPcfiVBcsHXug4Aepb/ICm2PIgqAUGMelgdrWEg==
 
 urix@^0.1.0:
   version "0.1.0"
